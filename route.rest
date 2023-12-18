@@ -1,0 +1,3 @@
+GET http://localhost:3000/patient
+
+GET http://localhost:3000/patient/11764
