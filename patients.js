@@ -7,5 +7,13 @@ const patientSchema = new mongoose.patientSchema({
     patientDateOfBirth:{
         type:Date,
         required:true
+    },
+    patientContactDetails:{
+        type:String,
+        required:true
+    },
+    patientNextOfKin:{
+        type:String,
+        required:true
     }
 })
